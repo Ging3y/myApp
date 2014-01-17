@@ -1,1 +1,9 @@
 U:\Repos\bmi\project\bmiApp\bmiApp\bin\Debug\bmiApp.exe.config
+C:\Users\jonet306\Documents\Git\bmi\myApp\project\bmiApp\bmiApp\bin\Debug\bmiApp.exe.config
+C:\Users\jonet306\Documents\Git\bmi\myApp\project\bmiApp\bmiApp\bin\Debug\bmiApp.exe
+C:\Users\jonet306\Documents\Git\bmi\myApp\project\bmiApp\bmiApp\bin\Debug\bmiApp.pdb
+C:\Users\jonet306\Documents\Git\bmi\myApp\project\bmiApp\bmiApp\obj\Debug\bmiApp.Form1.resources
+C:\Users\jonet306\Documents\Git\bmi\myApp\project\bmiApp\bmiApp\obj\Debug\bmiApp.Properties.Resources.resources
+C:\Users\jonet306\Documents\Git\bmi\myApp\project\bmiApp\bmiApp\obj\Debug\bmiApp.csproj.GenerateResource.Cache
+C:\Users\jonet306\Documents\Git\bmi\myApp\project\bmiApp\bmiApp\obj\Debug\bmiApp.exe
+C:\Users\jonet306\Documents\Git\bmi\myApp\project\bmiApp\bmiApp\obj\Debug\bmiApp.pdb

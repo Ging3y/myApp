@@ -16,5 +16,20 @@ namespace bmiApp
         {
             InitializeComponent();
         }
+
+        private void calculateButton_Click(object sender, EventArgs e)
+        {
+            //Do something
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
