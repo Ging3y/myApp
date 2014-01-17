@@ -30,10 +30,12 @@
         {
             this.calculateButton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.heightText = new System.Windows.Forms.TextBox();
+            this.weightText = new System.Windows.Forms.TextBox();
             this.heightLabel = new System.Windows.Forms.Label();
             this.weightLabel = new System.Windows.Forms.Label();
+            this.bmiLabel = new System.Windows.Forms.Label();
+            this.resultLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // calculateButton
@@ -58,20 +60,21 @@
     " weight and height, and then\r\nyou will receive your score, as well as general fe" +
     "edback.\r\nGood luck!\r\n";
             // 
-            // textBox1
+            // heightText
             // 
-            this.textBox1.Location = new System.Drawing.Point(70, 116);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 2;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.heightText.Location = new System.Drawing.Point(70, 116);
+            this.heightText.Name = "heightText";
+            this.heightText.Size = new System.Drawing.Size(100, 20);
+            this.heightText.TabIndex = 2;
+            this.heightText.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // textBox2
+            // weightText
             // 
-            this.textBox2.Location = new System.Drawing.Point(226, 116);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(116, 20);
-            this.textBox2.TabIndex = 3;
+            this.weightText.Location = new System.Drawing.Point(226, 116);
+            this.weightText.Name = "weightText";
+            this.weightText.Size = new System.Drawing.Size(116, 20);
+            this.weightText.TabIndex = 3;
+            this.weightText.TextChanged += new System.EventHandler(this.weightText_TextChanged);
             // 
             // heightLabel
             // 
@@ -94,15 +97,36 @@
             this.weightLabel.Text = "Weight:";
             this.weightLabel.Click += new System.EventHandler(this.label3_Click);
             // 
+            // bmiLabel
+            // 
+            this.bmiLabel.AutoSize = true;
+            this.bmiLabel.Location = new System.Drawing.Point(160, 163);
+            this.bmiLabel.Name = "bmiLabel";
+            this.bmiLabel.Size = new System.Drawing.Size(60, 13);
+            this.bmiLabel.TabIndex = 7;
+            this.bmiLabel.Text = "Your BMI...";
+            // 
+            // resultLabel
+            // 
+            this.resultLabel.AutoSize = true;
+            this.resultLabel.Font = new System.Drawing.Font("Pericles", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.resultLabel.Location = new System.Drawing.Point(132, 176);
+            this.resultLabel.Name = "resultLabel";
+            this.resultLabel.Size = new System.Drawing.Size(121, 81);
+            this.resultLabel.TabIndex = 8;
+            this.resultLabel.Text = "20";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(407, 290);
+            this.Controls.Add(this.resultLabel);
+            this.Controls.Add(this.bmiLabel);
             this.Controls.Add(this.weightLabel);
             this.Controls.Add(this.heightLabel);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.weightText);
+            this.Controls.Add(this.heightText);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.calculateButton);
             this.Name = "Form1";
@@ -116,10 +140,12 @@
 
         private System.Windows.Forms.Button calculateButton;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox heightText;
+        private System.Windows.Forms.TextBox weightText;
         private System.Windows.Forms.Label heightLabel;
         private System.Windows.Forms.Label weightLabel;
+        private System.Windows.Forms.Label bmiLabel;
+        private System.Windows.Forms.Label resultLabel;
     }
 }
 
